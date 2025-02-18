@@ -27,3 +27,4 @@ describe('Product API', () => {
     expect(res.body.name).toBe('Producto de prueba');
   });
 });
+

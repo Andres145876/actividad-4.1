@@ -5,6 +5,12 @@
   "scripts": {
     "test": "jest"
   },
+  
+    "engines": {
+      "node": "18.x"
+    },
+  
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
