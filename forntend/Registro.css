@@ -1,0 +1,63 @@
+        /* Establecer el margen y padding a 0 para evitar desplazamientos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* El body y html deben ocupar toda la altura de la ventana */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;  /* Centrado horizontal */
+            align-items: center;      /* Centrado vertical */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo para el formulario y los títulos */
+        form {
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            margin-top: 10px;
+            color: red;
+        }

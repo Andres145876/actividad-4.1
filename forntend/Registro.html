@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="socio">
+        <h2>Bienvenido</h2>
+        <p>Si deseas ser parte de nuestra familia, por favor completa el siguiente formulario:</p>
+        <form action="procesar_socio.php" method="post">
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="numero">Número de Teléfono:</label><br>
+            <input type="tel" id="numero" name="numero" required><br><br>
+
+            <label for="correo">Correo Electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+
+            <button type="submit">Iniciar sesion</button>
+            <button type="submit">Registrarse</button>
+
+        </form>
+    </section>
+</body>
+</html>

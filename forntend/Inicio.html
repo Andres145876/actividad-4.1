@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="Registro.css">
+</head>
+<body>
+    <div>
+        <h1>Register</h1>
+        <form method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="nameRegister" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="emailRegister" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="passwordRegister" name="password" required>
+            <button id="register">Register</button>
+            <button id="adminregister">Register admin</button>
+            <p id="messageRegister"></p>
+        </form>
+
+        <h1>Login</h1>
+        <form method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="emailLogin" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="passwordLogin" name="password" required>
+            <button id="login">Login</button>
+            <p id="messageLogin"></p>
+        </form>
+
+    <script src="Registro.js"></script>
+</body>
+</html>

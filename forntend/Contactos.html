@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Cafetería Bora</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script>
+        function mostrarInformacionContacto() {
+            const infoContacto = document.getElementById('info-contacto');
+            infoContacto.style.display = infoContacto.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="cart.html">Ver Menu y Pedir</a>
+        <a href="#">Contacto</a>
+        <a href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>¿Cómo podemos ayudarte?</h2>
+            <p>Haz clic en el botón para ver la información de contacto:</p>
+            <button onclick="mostrarInformacionContacto()">Mostrar Información de Contacto</button>
+
+            <div id="info-contacto">
+                <h3>Información de Contacto</h3>
+                <ul>
+                     <li><strong>Dirección:</strong> Plaza Auriga segundo piso</li>
+                     <li><strong>Teléfono:</strong> 8136206222</li>
+                     <li><strong>Correo:</strong> contacto@cafeteriabora.com</li>
+                     <li><strong>Facebook:</strong> https://www.facebook.com </li>
+                     <li><strong>Instagram:</strong> https://www.instagram.com</li>
+                 </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cafetería Bora. Todos los derechos reservados.</p>
+        <p>Síguenos en:
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+
+
+ 

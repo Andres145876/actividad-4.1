@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Cafetería Bora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleInfo() {
+            const infoNosotros = document.getElementById('info-nosotros');
+            infoNosotros.style.display = infoNosotros.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Nosotros</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="cart.html">Ver Menú y Pedir</a>
+        <a href="contactos.html">Contacto</a>
+        <a href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Sobre Nosotros</h2>
+            <p>Haz clic en el botón para conocer más sobre nuestra cafetería:</p>
+            <button onclick="toggleInfo()">Mostrar Información de Nosotros</button>
+
+            <div id="info-nosotros" style="display: none;">
+                <h3>Bienvenidos a Cafetería Bora</h3>
+                <p>Esta es una cafetería donde puedes venir a pasarla bien con tus amigos y disfrutar el momento. Nos enorgullecemos de ofrecer un ambiente relajado y estético, perfecto para desconectar del estrés diario. 
+                Además, contamos con una amplia variedad de cafes y postres para todos los gustos. ¡Ven y vive la experiencia Bora!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cafetería Bora. Todos los derechos reservados.</p>
+        <p>Síguenos en:
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+
+

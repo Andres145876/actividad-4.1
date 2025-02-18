@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Bora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Cafetería Bora</h1>
+    </header>
+
+    <nav>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contactos.html">Contacto</a>
+        <a href="#socio">Hazte Socio</a>
+        <a href="cart.html">Ver Menú y Pedir</a>
+        <a href="Inicio.html">cerrar sesion</a>
+        <a href="https://maps.app.goo.gl/Npx5byAWPpSfkHH19" target="_blank">Ubicacion</a>
+
+    </nav>
+
+    <img src="fondo.jpg" alt="Cafetería Bora" style="width:100%; max-height:300px; object-fit:cover;">
+
+    <main>
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Informacion de nosotros. <br>
+                <strong>Cafetería Bora</strong>
+            </p>
+            <a href="nosotros.html" class="boton">Conocer Más</a>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Quieres saber más? Visita nuestra página de contacto:</p>
+            <a href="contactos.html" class="boton">Ir a Contactos</a>
+
+            <p>Dirección: Plaza Auriga<br>
+            Teléfono: 8136206222<br>
+            Correo: contacto@cafeteriabora.com</p>
+
+        </section>
+
+        <section id="socio">
+            <h2>Hazte Socio</h2>
+            <p>Si deseas ser parte de nuestra familia, por favor completa el siguiente formulario:</p>
+            <form action="procesar_socio.php" method="post">
+                <label for="nombre">Nombre Completo:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="numero">Número de Teléfono:</label><br>
+                <input type="tel" id="numero" name="numero" required><br><br>
+
+                <label for="correo">Correo Electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cafetería Bora. Todos los derechos reservados.</p>
+        <p>Síguenos en:
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+

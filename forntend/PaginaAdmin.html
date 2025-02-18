@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administrador</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <h1>Panel de Administrador</h1>
+
+    <button id="toggleUsers">Mostrar/Ocultar Usuarios</button>
+    <table id="usersTable" style="display: none;">
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </tr>
+
+    </table>
+
+    <button id="toggleAdmins">Mostrar/Ocultar Administradores</button>
+    <table id="adminsTable" style="display: none;">
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+        </tr>
+
+    </table>
+
+    <a href="index.html" class="logout-btn">Vizualizar pagina principal</a>
+
+    <script src="admin.js"></script>
+</body>
+</html>
